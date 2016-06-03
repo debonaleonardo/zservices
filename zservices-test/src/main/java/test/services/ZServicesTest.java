@@ -14,7 +14,7 @@ import com.services.model.Customer;
 
 public class ZServicesTest {
 
-	//@Test
+	@Test
 	public void addCustomerTest() {
 
 		HttpClient client = new HttpClient();
@@ -59,7 +59,6 @@ public class ZServicesTest {
 			String read;
 
 			while((read=br.readLine()) != null) {
-			    //System.out.println(read);
 			    sb.append(read);   
 			}
 		} catch (Exception e) {
